@@ -126,12 +126,17 @@ LinkedIn_AIHawk steps in as a game-changing solution to these challenges. It's n
 
 4. **Activate virtual environment:**
    ```bash
-   python3 -m venv virtual
+   python -m venv virtual
    ```
 
    ```bash
    source virtual/bin/activate
    ```
+
+For Windows on CMD (admin priviledges):
+   ```bash
+   virtual\Scripts\activate
+   ```   
 
 5. **Install the required packages:**
    ```bash
